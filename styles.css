@@ -1,14 +1,52 @@
 
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+
+
+body {
+    background-color: #D3D3D3;
+    margin-left: 20px
+}
 p {
   font-size: 120%;
   color: #800080;
 }
 
+.header-site{
+   background: #000000 url(C:\Users\viktoria.enmark\Documents\GitHub\Comprendcodecamp\img\boxer puppies.jpg) 100% 100% no-repeat;
+}
+
+
+p.title {
+  color: black;
+  font: tahoma;
+  font-size: 80px
+}
+
+
+div.padding {
+    padding-top: 3px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+img{
+  width:100%;
+}
+
+
+
 p.important {
   border-style: solid;
   border-width: 5px;
-  border-color: purple;
+  border-color: gray;
+  background-color: #A9A9A9;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
 }
 
 .center {
@@ -24,4 +62,11 @@ a:visited {
 
 a:hover {
   color: rebeccapurple;
+}
+
+
+p.para1 {
+    text-align: right;
+    color: black;
+    padding-right:40px
 }

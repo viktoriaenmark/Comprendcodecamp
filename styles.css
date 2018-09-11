@@ -10,3 +10,18 @@ p.important {
   border-width: 5px;
   border-color: purple;
 }
+
+.center {
+  display: block;
+  margin: auto;
+    text-align: center;
+}
+
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: rebeccapurple;
+}

@@ -3,8 +3,9 @@
 
 
 body {
-    background-color: #D3D3D3;
-    margin-left: 20px
+    background-color: #FFF;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 p {
   font-size: 120%;
@@ -19,8 +20,19 @@ p {
 p.title {
   color: black;
   font: tahoma;
-  font-size: 80px
+  font-size: 80px;
+  background-color: #228B22;
 }
+
+
+
+p.heading {
+  color: black;
+  font: tahoma;
+  font-size: 40px;
+
+}
+
 
 
 div.padding {
@@ -67,6 +79,14 @@ a:hover {
 
 p.para1 {
     text-align: right;
-    color: black;
-    padding-right:40px
+    color: white;
+    padding-right:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    background-color: #228B22;
+    margin-right: 280px;
+    margin-top: 50px;
+    margin-left: 280px;
+
 }
